@@ -5,6 +5,7 @@
 In this lab, I will install osTicket which is an open-source software used for help desk ticketing. This will be completed using a VM created in Azure. 
 
 
+
 Environments and Technologies Used
 
 Microsoft Azure (Virtual Machines/Compute)
@@ -12,9 +13,4 @@ Microsoft Azure (Virtual Machines/Compute)
 Remote Desktop
 
 Internet Information Services (IIS)
-
-
-Window Services Used
-
-Windows 11
  
