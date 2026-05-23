@@ -123,6 +123,102 @@ Next, We are going to open IIS as admin. Then click the name of your lab and the
 
 Now register a new PHP version and once you click that click the 3 dots and go to php and click phi cgi as the new php.
 
+<img width="786" height="502" alt="image" src="https://github.com/user-attachments/assets/21c0de9e-f7db-4aa0-9dd2-e0dc68b8801c" />
+
+<img width="741" height="388" alt="image" src="https://github.com/user-attachments/assets/abccd276-d37a-48a1-8b50-10d8e557cb7a" />
+
+Next, Reload IIS (Open IIS, Stop and Start the server)
+
+<img width="1087" height="579" alt="image" src="https://github.com/user-attachments/assets/c54dba9b-1d43-4a50-a153-864cb773d7c8" />
+
+Next, Install osTicket v1.15.8 (go back to the osticket installation file folder) From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy the upload folder into c: \inetpub\wwwroot. Within c:\inetpub\wwwroot, Rename upload to osTicket.
+
+<img width="1268" height="465" alt="image" src="https://github.com/user-attachments/assets/a4965748-4a5c-46a0-9212-c470f489e849" />
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+<img width="280" height="482" alt="image" src="https://github.com/user-attachments/assets/b1275595-5639-415b-9ed4-3fe6b9ac834f" />
+
+Go to sites -> Default -> osTicket. Click 80
+
+<img width="240" height="205" alt="image" src="https://github.com/user-attachments/assets/c14ad025-524d-4f57-9534-fb9b5b48790b" />
+
+This will be the outcome if you did everything right until now. we should see osticket installer installed on microsoft edge.
+
+<img width="1234" height="829" alt="image" src="https://github.com/user-attachments/assets/b425bb76-10f9-46d9-bd70-416f409c07d1" />
+
+Next, Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager, Click Enable or disable an extension
+Enable: php_imap.dll, Enable: php_intl.dll, Enable: php_opcache.dll
+
+<img width="435" height="573" alt="image" src="https://github.com/user-attachments/assets/c94055f0-577b-46da-bac2-3a2b7a116c17" />
+
+Refresh the IIS 
+
+<img width="574" height="697" alt="image" src="https://github.com/user-attachments/assets/2e4f68ac-21c2-43df-a510-ad26647334f1" />
+
+Now go to microsoft edge where the osticket installer is on and refresh the page.
+
+<img width="721" height="708" alt="image" src="https://github.com/user-attachments/assets/ce9f2fba-209c-408c-bad2-d33c1c77700e" />
+
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename it ost-config.php
+
+<img width="1018" height="607" alt="image" src="https://github.com/user-attachments/assets/9272189c-e835-4b36-8f83-ceb12354e423" />
+
+Assign Permissions: ost-config.php. To do you have click on it and go to properties. Go to advanced and Disable inheritance -> Remove All. New Permissions -> Everyone -> All
+
+<img width="904" height="451" alt="image" src="https://github.com/user-attachments/assets/95dcd83f-1f0d-45de-94a0-a2ce92b89984" />
+
+<img width="1050" height="507" alt="image" src="https://github.com/user-attachments/assets/423e119a-64b0-4d87-9fae-7d9629008c96" />
+
+<img width="1345" height="732" alt="image" src="https://github.com/user-attachments/assets/8e6c1b2b-9d43-4bc4-816b-8d4700481b1e" />
+
+Next select full control 
+
+<img width="702" height="452" alt="image" src="https://github.com/user-attachments/assets/cd0ac84b-0312-474b-a019-06db3e60be0f" />
+
+Continue Setting up osTicket in the browser (click Continue). Fill out the whole page until you reach mysql pleease leave that blank for a while until we proceed to the next step.
+
+<img width="1146" height="827" alt="image" src="https://github.com/user-attachments/assets/76e15512-9a6f-4898-a470-8672e723220e" />
+
+Next, go back to the osticket installation file folder and install heidiSQL Connect to the session. Create a database called osTicket
+
+<img width="1488" height="803" alt="image" src="https://github.com/user-attachments/assets/fc4ca185-cc05-447c-9896-c74c6fc3b678" />
+
+Next, once you finish the installing click finish and click new and enter your password that you used earlier for IIS.
+
+<img width="1176" height="739" alt="image" src="https://github.com/user-attachments/assets/31cc0a09-b117-464b-aa4c-674618afe68a" />
+
+<img width="1194" height="497" alt="image" src="https://github.com/user-attachments/assets/0965bd94-ed64-4391-bba8-0b52ffff4acb" />
+
+Then Continue Setting up osTicket in the browser. Click Install Now. 
+Congrats you have now installed osTicket installed.
+
+<img width="1092" height="836" alt="image" src="https://github.com/user-attachments/assets/1ee88573-099e-4ce2-a338-7e9ee601fbc2" />
+
+The click the upper left link to login as a admin or in your profile.
+
+<img width="806" height="527" alt="image" src="https://github.com/user-attachments/assets/337dc855-f3bc-46c8-807b-ddf385dc6f90" />
+
+ Congrats you have logged in the osTicket website.
+
+ <img width="1273" height="551" alt="image" src="https://github.com/user-attachments/assets/103b4732-b53e-4be8-9b23-a77be526afb9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
