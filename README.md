@@ -65,10 +65,6 @@ Once, you click that your screen should like mine (it might not it might depends
 
 <img width="997" height="708" alt="image" src="https://github.com/user-attachments/assets/390ebad4-222e-4b14-8c5d-c102aacd5572" />
 
-It should look something like this. You have make Active Directory Domain Service is checked because mine was unchecked.
-
-<img width="985" height="688" alt="image" src="https://github.com/user-attachments/assets/023c0538-1a94-4322-9ff0-d58cb572407e" />
-
 Next, you want to install IIS with CGI you will have to go to server manager then click add roles or features then, click next, go to web server IIS click web server, then application development then, click CGI
 
 <img width="990" height="685" alt="image" src="https://github.com/user-attachments/assets/4bb88067-c04c-4327-96b3-591d74011166" />
@@ -102,6 +98,33 @@ Next, we are going to proceed to the next step and that is to create a directory
 <img width="780" height="382" alt="image" src="https://github.com/user-attachments/assets/1aacae1f-6043-4b9a-a31d-65261df51823" />
 
 Next, we are going to unzip PHP in the os ticket installion file folder and to do that we will have to extract all info in that folder and we will put it in the PHP folder
+
+<img width="926" height="685" alt="image" src="https://github.com/user-attachments/assets/566d50b4-9fd0-41d7-b25e-408e763b37ac" />
+
+This is what your screen should look like when you complete the transfer to PHP
+
+<img width="1007" height="650" alt="image" src="https://github.com/user-attachments/assets/aa28fd36-c653-4497-85c4-7c6238503138" />
+
+Now we are going to install VC redist and MySQL 5.5. ( go back to the osticket installation file folder and install these two programs)
+
+<img width="727" height="422" alt="image" src="https://github.com/user-attachments/assets/d5af510c-3bd9-4389-8a54-737949712c96" />
+
+In the MySQL is a two part process on the secord part click standard configuration and then next and make up a easy username and password for this lab.
+
+<img width="696" height="485" alt="image" src="https://github.com/user-attachments/assets/5e444acb-575c-44cb-9112-57aa7ad57794" />
+
+When your done you have this screen when you click install.
+
+<img width="669" height="463" alt="image" src="https://github.com/user-attachments/assets/df66e550-7048-4476-8f93-a7b6e77f3b21" />
+
+Next, We are going to open IIS as admin. Then click the name of your lab and then open  PHP Manager.
+
+<img width="1222" height="507" alt="image" src="https://github.com/user-attachments/assets/61cd8763-99b0-4083-a0b7-75f5cdf0cecd" />
+
+Now register a new PHP version and once you click that click the 3 dots and go to php and click phi cgi as the new php.
+
+
+
 
 
 
