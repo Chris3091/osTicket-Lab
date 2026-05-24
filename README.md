@@ -202,8 +202,8 @@ The click the upper left link to login as a admin or in your profile.
  Congrats you have logged in the osTicket website.
 
  <img width="1273" height="551" alt="image" src="https://github.com/user-attachments/assets/103b4732-b53e-4be8-9b23-a77be526afb9" />
-For more info check out next repository.
-README.md 2
+https://github.com/Chris3091/osTicket---Prerequisites-and-Installation/commit/4e51edc3a28153a823d5ac68ab4d07dc3f4d5fa7
+
 
 
 
