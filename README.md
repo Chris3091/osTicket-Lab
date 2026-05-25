@@ -204,7 +204,6 @@ The click the upper left link to login as a admin or in your profile.
  <img width="1273" height="551" alt="image" src="https://github.com/user-attachments/assets/103b4732-b53e-4be8-9b23-a77be526afb9" />
 
 Visit my Next Repository for more Info 
- check out my [Next Repository] https://github.com/Chris3091/osTicket---Prerequisites-and-Installation/blob/36b95f04484306d2f13feabb1379f125e27e0618/NextRepo.
 
 
 
